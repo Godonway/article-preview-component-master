@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- cdnjs for fontAwsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- custom style sheet  -->
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+  <main class="main_flex">
+    <header>
+     <img class='header_img'src="images/drawers.jpg" alt="picture of drawers">
+    </header>
+    <article>
+    <div class="about_article">
+      <h2> 
+        Shift the overall look and feel by adding these wonderful 
+        touches to furniture in your home</h2>
+      <p>
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+      </p>
+    </div>
+    <section id="show_share_bar">
+       <div class="seller">
+        <div class='about_seller'>
+          <img src="images/avatar-michelle.jpg" alt="picture of seller">
+          <address class="seller_detail">
+            <span class="seller_name"> Michelle Appleton</span>
+            <time pubdate datetime="2020-06-28" title="june 28th, 2020">28 Jun 2020</time>
+          </address> 
+        </div>
+        <button type="button" id="share">
+          <i class="fa-solid fa-share"></i>
+        </button>
+       </div>
+       <section class="share_bar" >
+        <a href=""><span>Share</span></a>
+        <a href="">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+      </section>
+      </section>
+      
+
+    </article>
+     
+  </main>
+
+ </div>
+
+  
+ 
+  
+
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  
+</body>
+</html>
